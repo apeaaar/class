@@ -1,0 +1,13 @@
+<div id="waline-card">
+</div>
+<script type="module">
+    import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+    init({
+      el: '#waline-card',
+      serverURL: 'https://waline.apeaaar.com',
+      comment: true,
+      pageview: true,
+      lang: 'zh-CN',
+      login: "enable"
+    });
+  </script>
