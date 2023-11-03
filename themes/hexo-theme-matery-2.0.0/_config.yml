@@ -617,5 +617,5 @@ bbtime:
 
 deploy:
   type: git
-  repo: https://github.com/taoyan-game/site-hexo.git
-  branch: master
+  repo: https://github.com/apeaaar/class.git
+  branch: main
